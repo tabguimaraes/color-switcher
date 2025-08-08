@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  border: 1px solid grey;
+  display: grid;
+  border-radius: 1rem;
+  padding: 44px;
+  gap: 24px;
+  /* width: 400px; */
+  grid-template-columns: 1fr auto;
+  align-items: center; /* pra alinhar verticalmente no meio */
+}
+
+label {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+#textField {
+  height: 24px;
+}
