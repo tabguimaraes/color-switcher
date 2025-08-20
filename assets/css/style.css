@@ -23,6 +23,7 @@ main {
   /* width: 400px; */
   grid-template-columns: 1fr auto;
   align-items: center; /* pra alinhar verticalmente no meio */
+  box-shadow: 5px 5px 5px 4px grey;
 }
 
 label {
